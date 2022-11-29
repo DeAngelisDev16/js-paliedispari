@@ -22,15 +22,29 @@ function sommaNumeri (num1, num2){
 
 //NB: TUTTE LE VARIABILI UTILIZZATE ALL'INTERNO DI UNA FUNZIONE DEVONO ESSERE STATE DICHIARATE DENTRO ALLA FUNZIONE (IMPORTANTE)!!
 
-function palindromeTrueOrNot (word){
+function palindromeTrueOrNot (){
     let userWord = prompt('Inserisci una parola');
+    for(let i= userWord.length -1 ; i <= userWord.length; i-- ){
+        if (userWord = userWord.lenght - 1){
+            return true;
+        }
+
+    }
 
 }
 
-/* function palindrome(str) {
-    return true;
-  }
-  console.log(palindrome("eye")); */
+
+
+
+function oddOrEven (num1, num2){
+    let userNumber = parseInt(prompt('inserisci un numero da 1 a 5'));
+
+}
+
+oddOrEven()
+console.log(oddOrEven());
+
+
     
 
 
